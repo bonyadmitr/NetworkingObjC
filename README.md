@@ -25,3 +25,12 @@ bundle e synx --no-sort-by-name NetworkingObjC.xcodeproj
 ```bash
 bundle e pod install
 ```
+
+## Commets
+
+Can be:
+
+- added DI framework like Typhoon to remove singletons
+- added services for clients and storages
+- created simple class from NSObject to abstract from data base objects
+- added SDWebImage for work with images
