@@ -38,7 +38,6 @@ static NSString * const postSegueId = @"post";
 }
 
 - (void)loadPosts {
-    // can be added DI framework like Typhoon to remove singletons
     [[PostsStorage sharedInstance] getAll].then(^(NSArray *posts){
         self.posts = posts;
         [self.tableView reloadData];

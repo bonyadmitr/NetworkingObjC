@@ -9,8 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <Realm/Realm.h>
 #import <PromiseKit/Promise.h>
-
-// we can create simple class from NSObject to abstract from data base object 
+ 
 @interface Post : RLMObject
 
 @property (assign, nonatomic) NSInteger id;
